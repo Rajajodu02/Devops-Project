@@ -12,16 +12,16 @@ spec:
         type: git
         params:
           - name: url
-            value: "https://github.com/tkavya-05/DevopsProject/tree/main/my_docker_file"
+            value: "https://github.com/Rajajodu02/Devops-Project/tree/main/my_docker_file"
   params:
     - name: gitrepo
       value:
-        url: "https://github.com/tkavya-05/DevopsProject/tree/main/my_docker_file"  # Provide the Git repository URL here
+        url: "https://github.com/Rajajodu02/Devops-Project/tree/main/my_docker_file"  # Provide the Git repository URL here
     - name: context-dir
       value: "."
     - name: dockerfile
       value: "./Dockerfile"
     - name: docker-image
-      value: "https://hub.docker.com/r/telukuntlakavya/my_docker_file"
+      value: "https://github.com/Rajajodu02/Devops-Project/tree/main/my_docker_file"
   secrets:
     - name: regcred
